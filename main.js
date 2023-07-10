@@ -10,7 +10,8 @@ buttons.forEach((button)=>{
 })
 
 function changeForm(e){
-    
+    let btnText=e.target.textContent;
+    console.log(btnText)
 }
 
 function preventSubmit(e){
