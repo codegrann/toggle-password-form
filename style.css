@@ -39,7 +39,7 @@ body{
     background-color: rgb(156, 159, 157);
     border: none;
     border-radius: 0.3rem;
-    /* padding: 0; */
+    transition: background-color 900ms;
 }
 .btn-login:hover{
     background-color: rgb(68, 151, 68);
