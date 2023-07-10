@@ -13,6 +13,6 @@ function show(){
     // password.textContent=password.textContent
     form.style.color='red';
     togglePassword.classList.toggle('bi-eye')
-    let newAttribute=type=='password'? 'text': 'password';
-    password.setAttribute('newAttribute')
+    let newAttribute=(type=='password')? 'text': 'password';
+    password.setAttribute('type', newAttribute)
 }
