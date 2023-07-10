@@ -28,7 +28,17 @@ body{
 }
 .btn-forget{
     grid-column: 3/7;
+    font-size: 0.9rem;
+    align-self: end;
+    /* padding-top: 0.4rem; */
 }
 .btn-login{
     grid-column: 7/11;
+    font-size: 1.4rem;
+    /* padding: 0; */
+}
+input,
+button{
+    height: 2.5rem;
+
 }
