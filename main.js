@@ -6,6 +6,12 @@ let togglePassword=document.querySelector('#togglePassword');
 togglePassword.addEventListener('click', show)
 
 function show(){
+    let passwordText=password.value;
+    let type=password.getAttribute('type');
+    console.log(type)
+    console.log(passwordText)
     // password.textContent=password.textContent
     form.style.color='red';
+    togglePassword.classList.toggle('bi-eye')
+    password.value=password.value? passwordText: password.value;
 }
