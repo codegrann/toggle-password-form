@@ -26,7 +26,7 @@ body{
 .grid12{
     grid-column: 3/11;
     border: none;
-    border-bottom: 2px solid rgb(161, 157, 157)
+    border-bottom: 1.6px solid rgb(161, 157, 157)
 }
 .btn-forget{
     grid-column: 3/7;
