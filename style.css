@@ -14,5 +14,18 @@ body{
 }
 
 #form{
+    width: 50vw;
+    border: 2px solid red;
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: ; */
+}
+.grid12{
+    grid-column: 1/4;
+}
+.btn-forget{
+    grid-column: 1/6;
+}
+.btn-login{
+    grid-column: 6/12;
 }
