@@ -15,9 +15,8 @@ body{
 
 #form{
     width: 30vw;
-    /* min-height: 50vh; */
-    border: 2px solid red;
-    margin: 5% auto;
+    /* border: 2px solid red; */
+    margin: 10% auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     row-gap: 1rem;
@@ -37,7 +36,14 @@ body{
 .btn-login{
     grid-column: 7/11;
     font-size: 1.4rem;
+    background-color: rgb(156, 159, 157);
+    border: none;
+    border-radius: 0.3rem;
     /* padding: 0; */
+}
+.btn-login:hover{
+    background-color: rgb(68, 151, 68);
+    cursor: pointer;
 }
 .grid12,
 button{
