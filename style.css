@@ -14,18 +14,21 @@ body{
 }
 
 #form{
-    width: 50vw;
+    width: 30vw;
+    /* min-height: 50vh; */
     border: 2px solid red;
+    margin: 5% auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: ; */
+    row-gap: 1rem;
+    /* grid-template-rows: auto; */
 }
 .grid12{
-    grid-column: 1/4;
+    grid-column: 3/11;
 }
 .btn-forget{
-    grid-column: 1/6;
+    grid-column: 3/7;
 }
 .btn-login{
-    grid-column: 6/12;
+    grid-column: 7/11;
 }
