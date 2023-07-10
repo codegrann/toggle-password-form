@@ -11,7 +11,12 @@ buttons.forEach((button)=>{
 
 function changeForm(e){
     let btnText=e.target.textContent;
-    console.log(btnText)
+    let submitBtn=document.querySelector('#btn-login');
+    if(btnText=='Sign up'){
+        submitBtn.textContent='Sign up'
+    }
+    // submitBtn.textContent=btnText=='Sign up'? 'Sign up': 'Login';
+    console.log(btnText);
 }
 
 function preventSubmit(e){
