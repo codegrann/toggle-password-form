@@ -25,6 +25,8 @@ body{
 }
 .grid12{
     grid-column: 3/11;
+    border: none;
+    border-bottom: 2px solid rgb(161, 157, 157)
 }
 .btn-forget{
     grid-column: 3/7;
@@ -37,7 +39,7 @@ body{
     font-size: 1.4rem;
     /* padding: 0; */
 }
-input,
+.grid12,
 button{
     height: 2.5rem;
 
