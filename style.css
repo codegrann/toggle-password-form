@@ -40,6 +40,9 @@ body{
     border-radius: 0.3rem;
     color: rgb(72, 65, 65);
 }
+.buttons:hover{
+    cursor: pointer;
+}
 .grid12{
     grid-column: 3/11;
     border: none;

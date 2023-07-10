@@ -3,6 +3,8 @@ let password = document.querySelector("#password");
 let togglePassword = document.querySelector("#togglePassword");
 let buttons=document.querySelectorAll('.buttons');
 
+document.querySelector('#signup').style.opacity=0.7
+
 togglePassword.addEventListener("click", showPassword);
 form.addEventListener('submit', preventSubmit);
 buttons.forEach((button)=>{
@@ -12,11 +14,12 @@ buttons.forEach((button)=>{
 function changeForm(e){
     let btnText=e.target.textContent;
     let submitBtn=document.querySelector('#btn-login');
-    if(btnText=='Sign up'){
-        submitBtn.textContent='Sign up'
-    }
-    // submitBtn.textContent=btnText=='Sign up'? 'Sign up': 'Login';
-    console.log(btnText);
+    let forgetBtn=document.querySelector('#btn-forget');
+
+    submitBtn.textContent=btnText=='Sign up'? 'Sign up': 'Login';
+    forgetBtn.style.display=btnText=='Sign up'? 'none': 'block';
+    buttons[0].style.opacity=btnText=='Sign up'? 0.7: 1.0;
+    buttons[1].style.opacity=btnText=='Sign up'? 1.0: 0.7;
 }
 
 function preventSubmit(e){
