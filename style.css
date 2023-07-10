@@ -35,7 +35,7 @@ body{
     font-size: 0.9rem;
 }
 .buttons,
-.btn-login{
+#btn-login{
     border: none;
     border-radius: 0.3rem;
     color: rgb(72, 65, 65);
@@ -46,19 +46,19 @@ body{
     border-bottom: 1.6px solid rgb(161, 157, 157);
     padding-left: 0.5rem;
 }
-.btn-forget{
+#btn-forget{
     grid-column: 3/7;
     font-size: 0.9rem;
     align-self: end;
     /* padding-top: 0.4rem; */
 }
-.btn-login{
+#btn-login{
     grid-column: 7/11;
     font-size: 1.2rem;
     background-color: rgb(156, 159, 157);
     transition: background-color 900ms;
 }
-.btn-login:hover{
+#btn-login:hover{
     background-color: rgb(68, 151, 68);
     cursor: pointer;
 }
