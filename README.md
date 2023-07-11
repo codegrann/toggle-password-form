@@ -1,2 +1,3 @@
 # toggle-password-form
-A login form that allows a user to toggle visibility of password value.
+A form that allows a user to toggle the visibility of the password field. It helps to confirm the password before submission.
+
