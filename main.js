@@ -28,8 +28,10 @@ function changeForm(e){
 // prevent form from submitting
 function preventSubmit(e){
     e.preventDefault();
-    if(button)
-    alert("We've sent an activation link to your email")
+    if(e.target.value=='Sign up'){
+        alert("We've sent an activation link to your email");
+    }
+    
 }
 
 // toggle visibility of password
