@@ -20,6 +20,9 @@ function changeForm(e){
     let confirmPassword=password.nextElementSibling;
 
     submitBtn.textContent=btnText=='Sign up'? 'Sign up': 'Login';
+    if(submitBtn.textContent=="Sign up"){
+        
+    }
     forgetBtn.style.display=btnText=='Sign up'? 'none': 'block';
     buttons[0].style.opacity=btnText=='Sign up'? 0.7: 1.0;
     buttons[1].style.opacity=btnText=='Sign up'? 1.0: 0.7;
@@ -28,9 +31,10 @@ function changeForm(e){
 // prevent form from submitting
 function preventSubmit(e){
     e.preventDefault();
-    if(e.target.textContent=='Sign up'){
+    document.querySelector('#btn-login')
+    // if(e.target.textContent=='Sign up'){
         alert("We've sent an activation link to your email");
-    }
+    // }
     
 }
 
