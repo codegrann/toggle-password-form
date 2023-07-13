@@ -28,7 +28,7 @@ function changeForm(e){
 // prevent form from submitting
 function preventSubmit(e){
     e.preventDefault();
-    if(e.target.value=='Sign up'){
+    if(e.target.textContent=='Sign up'){
         alert("We've sent an activation link to your email");
     }
     
