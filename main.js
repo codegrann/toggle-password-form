@@ -48,27 +48,3 @@ function showPassword() {
   togglePassword.classList.toggle("bi-eye");
   password.setAttribute("type", newAttribute);
 }
-
-
-let set = new Set();
-
-let john = { name: "John" };
-let pete = { name: "Pete" };
-let mary = { name: "Mary" };
-let james=Object.assign({}, john);
-
-// visits, some users come multiple times
-set.add(john);
-set.add(pete);
-set.add(mary);
-set.add(john);
-set.add(mary);
-set.add(james);
-
-// set keeps only unique values
-// alert( set.size ); // 3
-
-for (let user of set) {
-    console.log(user.name)
-//   alert(user.name); // John (then Pete and Mary)
-}
