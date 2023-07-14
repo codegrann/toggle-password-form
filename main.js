@@ -48,12 +48,3 @@ function showPassword() {
   togglePassword.classList.toggle("bi-eye");
   password.setAttribute("type", newAttribute);
 }
-
-
-let john = { name: "John" };
-
-let map = new Map();
-map.set(john, "...");
-console.log(map)
-john = null;
-console.log(map)
