@@ -87,9 +87,23 @@ button{
     #form{
         width: 70vw;
     }
+    #login{
+        grid-column: 3/6;
+    }
+    #signup{
+        grid-column: 8/11;
+    }
 }
 @media(max-width:550px){
     #form{
         width: 90vw;
+    }
+}
+@media(max-width:450px){
+    #login{
+        grid-column: 3/6;
+    }
+    #signup{
+        grid-column: 8/11;
     }
 }
