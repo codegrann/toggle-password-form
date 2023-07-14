@@ -78,6 +78,8 @@ button{
     cursor: pointer;
 }
 
-media(max-width:800px){
-    
+@media(max-width:1000px){
+    #form{
+        width: 55vw;
+    }
 }
