@@ -83,3 +83,13 @@ button{
         width: 55vw;
     }
 }
+@media(max-width:700px){
+    #form{
+        width: 70vw;
+    }
+}
+@media(max-width:550px){
+    #form{
+        width: 90vw;
+    }
+}
